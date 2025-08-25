@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Persona</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #6a1b9a; /* Purple background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .persona-container {
+      display: flex;
+      background: #6a1b9a;
+      padding: 40px;
+      border-radius: 15px;
+      color: white;
+      width: 950px;
+    }
+    .left-section {
+      flex: 1;
+      text-align: center;
+      padding-right: 20px;
+      border-right: 2px solid rgba(255, 255, 255, 0.2);
+    }
+    .left-section img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 4px solid white;
+    }
+    .left-section h2 {
+      margin: 10px 0;
+    }
+    .left-section p {
+      margin: 6px 0;
+      font-size: 15px;
+    }
+    .right-section {
+      flex: 2;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      padding-left: 30px;
+    }
+    .box {
+      background: white;
+      color: #333;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+    .box h3 {
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #6a1b9a; /* Purple heading */
+    }
+    .box p {
+      font-size: 14px;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="persona-container">
+    
+    <!-- Left Section -->
+    <div class="left-section">
+      <img src= p1.jpeg alt="Student Photo">
+      <h2>Ananya Verma</h2>
+      <p>Computer Engineering Student</p>
+      <p><strong>Age:</strong> 18</p>
+      <p><strong>Education:</strong> Deploma, Final Year</p>
+      <p><strong>Location:</strong> Ahmednagar, India</p>
+    </div>
+    
+    <!-- Right Section -->
+    <div class="right-section">
+      <div class="box">
+        <h3>Bio</h3>
+        <p>Curious learner who enjoys coding, cloud computing, and working on real-world projects.</p>
+      </div>
+      <div class="box">
+        <h3>Goals</h3>
+        <p>Secure a good placement, improve coding skills, and complete her final-year project successfully.</p>
+      </div>
+      <div class="box">
+        <h3>Motivations</h3>
+        <p>Hands-on learning, building innovative projects, and preparing for tech career opportunities.</p>
+      </div>
+      <div class="box">
+        <h3>Concerns</h3>
+        <p>Managing time between academics and internships, limited budget for cloud services.</p>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
